@@ -1,0 +1,60 @@
+.botControlArea {
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #111;
+}
+
+.button {
+    background: #187180;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #e0e0e0;
+    padding: 7px 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.question,
+.actions {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.text {
+    color: #a9a9a9;
+}
+
+.item {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.action {
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.action.copy.white {
+    background: #fff;
+}
+
+.action.copy.green {
+    background: #2d874b;
+    color: white;
+}
+
+.action:hover {
+    background: #f0f0f0;
+}

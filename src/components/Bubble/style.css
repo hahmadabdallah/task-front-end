@@ -1,0 +1,29 @@
+.chatMessage {
+    margin: 1.5rem 0;
+}
+
+.messageText {
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    max-width: 75%;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 22px;
+    color: #111;
+}
+
+.bot .messageText {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #fff;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user .messageText {
+    border-radius: 10px;
+    background: #97E2F7;
+}
